@@ -1,0 +1,3 @@
+export const EXPECTED_MINUTES_IN_OVEN = 40; export function remainingMinutesInOven(minutosYaEnHorno) { return EXPECTED_MINUTES_IN_OVEN - minutosYaEnHorno; } export function preparationTimeInMinutes(capas) { return capas * 2; } export function totalTimeInMinutes(numberOfLayers, actualMinutesInOven) { return preparationTimeInMinutes(numberOfLayers) + actualMinutesInOven; }
+
+                                                                          
